@@ -1,10 +1,20 @@
-.hover-image {
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-image {
+    padding: 5px;
     width: 250px;
     height: 250px;
     transition: transform 0.3s ease;
 }
 
-.hover-effect {
+.hover-effect1 {
     /* The 'hover-effect' will scale the image up by 10% when hovered. */
     transform: scale(1.1);
+}
+
+.hover-effect2 {
+    transform: rotate(90deg);
 }
