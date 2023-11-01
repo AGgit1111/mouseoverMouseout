@@ -1,0 +1,10 @@
+.hover-image {
+    width: 250px;
+    height: 250px;
+    transition: transform 0.3s ease;
+}
+
+.hover-effect {
+    /* The 'hover-effect' will scale the image up by 10% when hovered. */
+    transform: scale(1.1);
+}
